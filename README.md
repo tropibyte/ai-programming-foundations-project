@@ -1,5 +1,7 @@
 # AI Programming Foundations — Reproducible Data Workflow
 
+**Repository:** https://github.com/tropibyte/ai-programming-foundations-project
+
 ## Project Description
 
 This project implements a complete, reproducible data workflow on the Titanic
@@ -41,8 +43,10 @@ executes top-to-bottom with no errors and produces four figures inline.
 - A single random seed is set once at the top of the notebook.
 - The raw dataframe is copied before any transformation, so every cleaning step is
   traceable to an untouched source.
-- Version control: the repository contains multiple commits tracking each task and
-  at least one development branch beyond `main`.
+- Version control: the repository
+  (https://github.com/tropibyte/ai-programming-foundations-project) contains multiple
+  commits tracking each task and a development branch (`feature/eda-enhancements`)
+  beyond `main`.
 
 ## Reflection — Bias & Data Quality
 

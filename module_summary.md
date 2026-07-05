@@ -2,6 +2,7 @@
 
 **Module Summary — AI Programming Foundations Project**
 **Author:** Tarie Nosworthy
+**Repository:** https://github.com/tropibyte/ai-programming-foundations-project
 
 ---
 
@@ -108,8 +109,10 @@ Another analyst can rerun this work exactly. All dependencies are pinned in
 `requirements.txt`, generated with `pip freeze > requirements.txt` and installed with
 `pip install -r requirements.txt`. A single random seed is set once at the top of the
 notebook, and the raw dataframe is copied before any transformation so the source is
-never mutated. Version control is handled through Git: the repository contains
-multiple commits tracking each task and at least one development branch beyond `main`,
+never mutated. Version control is handled through Git: the repository
+(https://github.com/tropibyte/ai-programming-foundations-project) contains
+multiple commits tracking each task and a development branch
+(`feature/eda-enhancements`) beyond `main`,
 providing a transparent history of how the workflow was constructed. Pinned
 environments and explicit version control are core to reproducible computational
 research (Danchev, 2022).
